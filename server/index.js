@@ -67,7 +67,7 @@ app.use(cors());
 
 // Replace the connection string with your MongoDB Atlas connection string
 // const atlasConnectionString = "mongodb+srv://userName:password@cluster0.kqrs16y.mongodb.net/?retryWrites=true&w=majority";
-const atlasConnectionString = "mongodb+srv://hassansiddiqui2k4:Vqp56KtczPXHgBcB@cluster0.kqrs16y.mongodb.net/?retryWrites=true&w=majority";
+const atlasConnectionString = "mongodb+srv://NaeenAsghar:Vqp56KtczPXHgBcB@cluster0.kqrs16y.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(atlasConnectionString, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.post('/register', (req, res) => {
